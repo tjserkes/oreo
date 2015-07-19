@@ -1,0 +1,6 @@
+<h1>My friend's phone numbers</h1>
+
+<% @contacts.each do |contact| %>
+  <a href="/contacts/<%= contact %>"><%= contact %></a>
+  <br>
+<% end %>
