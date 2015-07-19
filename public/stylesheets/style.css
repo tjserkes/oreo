@@ -1,3 +1,13 @@
-/*
-write custom CSS hererererere
-*/
+@home_background {
+      text-align: center;
+      background: url("http://dash.ga.co/assets/anna-bg.png");
+      background-size:cover;
+      background-position: center;
+    }
+
+.header {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
