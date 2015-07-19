@@ -1,0 +1,31 @@
+<html>
+	<head>
+			<title> Phone Numbers App </title>
+			<!-- Latest compiled and minified CSS - won't touch-->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+			<!-- Custom styles for this template - won't touch -->
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+			<!-- our own styling code-->
+			<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+	</head>
+
+	<body>
+	<h1>hello world</h1>
+
+		<%= yield %> 
+		<!-- Bootstrap Javascript-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</body>
+
+</html>
+
+<!-- #rest of erb files are rendered on line 6. shared code inserted #within yield. Equals means we want to see that code onto the page. Otherwise it's hidden. -->
+<!-- # this layout is keeping our code DRY (don't repeat yourself) -->
+<!-- We only have to include stylesheet once instead of repeating on each erb page.
+
+Style code only needs to be on one page.
+
+#ctrl+shift+w to tab over
+#command+right bracket
+#sublime shortcuts - lookup
+#cmd+forward slash will comment out no matter what language code - works in erb -->
