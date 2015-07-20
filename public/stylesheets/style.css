@@ -23,29 +23,42 @@ p 	{
 	font-weight: 500;
 	}
 
-.btn {
+.btn 
+{
 	background:rgba(0,0,0,0.5);
 	border-radius:0;
 	border-color: #ffffff;
 	border-width: 2px;
 	font-family: 'Open Sans', cursive;
-	}
-.personality_view {
+}
+.personality_view 
+{
 	margin: 10 25 10 25;
 }
-.btn.btn-primary.btn-lg {
+.btn.btn-primary.btn-lg 
+{
 	margin: 10 25 10 25
-
 }
-.panel-title{
+.btn.btn-block.btn-lg
+{
+	margin: 0 auto;
+}
+.panel-title
+{
 	text-align: center;
-	margin: 100 25 100 25;
+	margin: 75 25 75 25;
 	font-size: 50px;
 }
-.panel-body{
+.panel-body
+{
 	background:rgba(255,255,255,255.5);
+
+	margin: 25 0 25 0;
 }
 
 ul {
 	list-style-type: none;
+	margin: 75 0 75 0;
+	padding-top: 10px;
+	position: absolute;
 }

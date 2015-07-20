@@ -3,9 +3,9 @@
 	<div>
 		<ul>
 			<% @methods.each do |method| %>
-				<li class="btn btn-block btn-lg" href="/quiz/<%= (method[:number]).to_i %>">
+				<a href="/quiz/<%= (method[:number]).to_i %>"><li class="btn btn-block btn-lg">
 					<%= method[:description] %>
-				</li>
+				</li></a>
 			<% end %>
 		</ul>
 	</div>
