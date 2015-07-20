@@ -2,6 +2,7 @@ body {
   background: url("http://i.imgur.com/3i8Qkoq.jpg");
   background-size: cover;
   background-position: center;
+  text-align: center;
   color: white;
   font-family: 'Open Sans', cursive;
 }
@@ -43,6 +44,7 @@ p 	{
 {
 	margin: 25 0 25 0;
 	color: white;
+	float: center;
 }
 .panel-title
 {
@@ -58,9 +60,9 @@ p 	{
 
 ul {
 	list-style-type: none;
-	margin: 75 0 75 0;
 	padding-top: 10px;
-	position: absolute;
+	position: relative;
+	float: center;
 }
 
 .header {
@@ -72,4 +74,8 @@ ul {
 	margin-bottom: 50px;
 	margin-left: 100px;
 	margin-right: 100px;
+}
+
+.line_up {
+	list-style-position: center;
 }
