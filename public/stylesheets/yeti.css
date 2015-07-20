@@ -5008,9 +5008,9 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
   color: white;
   background: url("http://i.imgur.com/3i8Qkoq.jpg");
   background-size:cover;
