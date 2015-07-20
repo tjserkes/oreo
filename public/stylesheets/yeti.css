@@ -5008,11 +5008,13 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
   color: white;
-  background: url("http://dash.ga.co/assets/anna-bg.png");
+  background: url("http://i.imgur.com/3i8Qkoq.jpg");
+  background-size:cover;
+  background-position: center;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5314,7 +5316,7 @@ a.thumbnail.active {
 }
 a.list-group-item,
 button.list-group-item {
-  color: #555555;
+  color: #000000;
 }
 a.list-group-item .list-group-item-heading,
 button.list-group-item .list-group-item-heading {
