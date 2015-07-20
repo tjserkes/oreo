@@ -1,9 +1,15 @@
 <h1>How do you eat an Oreo?</h1>
 	<p>
 		<% @index.each do |number| %>
-			<a href="/quiz/<%= number %>"><%= number %></a>
+			<a href="/quiz/<%= number %>"><span class="label label-default"><%= number %>
+			</span></a>
 		<% end %>
 		<% @methods.each do |method| %>
 			<p><%= method[:description] %></p>
 		<% end %>
 	</p>
+
+
+
+	
+
