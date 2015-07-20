@@ -1,7 +1,6 @@
 body {
   background: url("http://i.imgur.com/3i8Qkoq.jpg");
   background-size: cover;
-  
   background-position: center;
   color: white;
 }
@@ -13,7 +12,11 @@ body {
 }
 
 .btn {
-	background-color: pink;
 	border-radius:0;
+	background-color: 808080;
+	text-align: left;
 }
 
+ul {
+	list-style-type: none;
+}
