@@ -1,19 +1,49 @@
 body {
   background: url("http://i.imgur.com/3i8Qkoq.jpg");
   background-size: cover;
-  
   background-position: center;
   color: white;
+  font-family: 'Open Sans', cursive;
 }
 
 .container-fluid {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 100px;
+	font-family: 'Open Sans', cursive;
 }
 
+h1 	{
+	font-size: 50px;
+	text-align: center;
+  	margin: 10px 0 0 0;
+	}
+
+p 	{
+	font-family: 'Open Sans', cursive;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 500;
+	}
+
 .btn {
-	background-color: pink;
+	background:rgba(0,0,0,0.5);
 	border-radius:0;
+	border-color: #ffffff;
+	border-width: 2px;
+	font-family: 'Open Sans', cursive;
+	}
+.personality_view {
+	margin: 10 25 10 25;
+}
+.btn.btn-primary.btn-lg {
+	margin: 10 25 10 25
+
+}
+.panel-title{
+	text-align: center;
+	margin: 100 25 100 25;
+	font-size: 50px;
+}
+.panel-body{
+	background:rgba(255,255,255,255.5);
+
 }
 
