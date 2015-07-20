@@ -1,13 +1,7 @@
-@home_background {
-      text-align: center;
-      background: url("http://dash.ga.co/assets/anna-bg.png");
-      background-size:cover;
-      background-position: center;
-    }
-
-.header {
-  padding-right: 30px;
-  padding-left: 30px;
+body {
+  background: url("http://i.imgur.com/3i8Qkoq.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
-
 

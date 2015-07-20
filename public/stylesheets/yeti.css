@@ -1608,10 +1608,9 @@ pre code {
   }
 }
 .container-fluid {
-  margin-right: auto;
-  margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  margin-top: 100px;
 }
 .row {
   margin-left: -15px;
@@ -5012,7 +5011,6 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: white;
-  background: url("http://dash.ga.co/assets/anna-bg.png");
 }
 .jumbotron h1,
 .jumbotron .h1 {
